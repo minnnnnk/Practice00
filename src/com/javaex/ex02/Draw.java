@@ -15,8 +15,9 @@ public class Draw {
 		graph2.setY(23);
 		
 		
-		System.out.println("점[x="+graph1.getX()+",  y="+graph1.getY()+"]을 그렸습니다.");
-		System.out.println("점[x="+graph2.getX()+",  y="+graph2.getY()+"]을 그렸습니다.");
+		graph1.draw();
+		graph2.draw();
+		
 	}
 
 }

@@ -23,4 +23,7 @@ public class Point {
 		return y;
 	}
 	//메소드-일반
+	public void draw() {
+		System.out.println("점[x="+getX()+",  y="+getY()+"]을 그렸습니다.");
+	}
 }
